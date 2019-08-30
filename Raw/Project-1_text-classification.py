@@ -80,7 +80,7 @@ sent_pred = classifier.predict(text_test)
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(sent_test,sent_pred)
 
-#accurancy of our model
+#accurancy of our model.
 accurancy = str((cm[0][0]+cm[1][1])/4)+"%"
 
 
